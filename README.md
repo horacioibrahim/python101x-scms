@@ -18,12 +18,12 @@ This package contain a course management system to support of classroom's. It's 
 
 Modules
 --------
- Course
- Class
- Lesson
- Students
- Exercises (Quizz with options, Open, etc)
- Questionnaires 
+ - Course
+ - Class
+ - Lesson
+ - Students
+ - Exercises (Quizz with options, Open, etc)
+ - Questionnaires 
 - 
 
 Usage (Quick start)
