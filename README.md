@@ -24,7 +24,7 @@ Modules
  - Students
  - Exercises (Quizz with options, Open, etc)
  - Questionnaires 
-- 
+ 
 
 Usage (Quick start)
 -------------------
