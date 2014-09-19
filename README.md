@@ -14,7 +14,7 @@ python101x-scms
 
 Shell Course Management System
 
-This package contain a course management system to support of classroom's. It's part of training programme Learn to Learning for Long-term retention in their phase one, called Python101x. We have included some modules:
+This package contain a course management system to support of real classroom's. It's part of training programme Learn to Learning for Long-term retention in their phase one, called Python101x. We have included some modules:
 
 Modules
 --------
