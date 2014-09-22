@@ -14,7 +14,7 @@ fazer e o que não fazer para programas em Python.
 Regras da Linguage Python
 --------------------------
 
-##Lint
+###Lint
   Rode pylint sobre seu código
   
   **Definição**
