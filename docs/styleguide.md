@@ -24,13 +24,38 @@ Regras da Linguage Python
   para linguagens menos dinâmicas como C e C++. Por cause da natureza dinâmica do Python alguns
   aviso podem ser incorretos; embora, os avisos falsos possam ser razoalmente frequentes.
   
-  *Pros*
+  **Pros**
+  
   Captura de erros fáceis de passarem despecebidos como erros de digitação, etc.
   
-  *Contras*
+  **Contras**
+  
   pylint não é perfeito. Para tirar vantagem dele, nós iremos precisar algumas vezes de: 
-  a) escrever em torno dele b) suprimir essas mensagens C) melhorar isto
+  a) escrever uma solução de contorno b) suprimir essas mensagens C) melhorá-lo
   
   *Decision*
-  Tenha certeza que você rodou pylint em seu código....
+  Certifique-se de rodar o pylint em seu código. Oculte os avisos se eles forem inapropriados
+  assim que outros avisos importantes passem despercebidos.
+  
+  Para suprimir os avisos você pode configurar com um comentário de uma linha
+  
+  ```
+  dict = 'alguma coisa' # Mau ideia... pylint: disable=redefined-builtin
+  ```
+  
+  Os avisos pylint são identificados por um código alfanumérico (c0112) e um nome simbólico
+  (empty-docstring). Prefira o nome simbólico nos novos códigos ou quando estiver atualizando 
+  um código existente. 
+  
+  Se o motivo para a supressão não é clara para o nome simbólico adicione um explicação.
+  
+  Suprimindo desta forma tem a vantagem de que nós poderemos facilmente pesquisar por supressões
+  e revistá-las.
+  
+  Você pode uma lista de avisos do pylint executando ```pylint --list-msgs```. Para ter mais 
+  informações sobre uma mensagem em particular use ```pylint --help-mgs=C6409```.
+  
+  Prefira ```pylint: disable``` a antigo forma já depreciada ```pylint: disable-msg```.
+  
+  Avisos para argumentos não....
 
