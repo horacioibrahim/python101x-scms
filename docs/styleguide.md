@@ -14,10 +14,10 @@ fazer e o que não fazer para programas em Python.
 Regras da Linguage Python
 --------------------------
 
-*Lint*
+**Lint**
   Rode pylint sobre seu código
   
-  *Definição*
+  **Definição**
   pylint é uma ferramenta para localizar problemas no código (bugs) e problemas no estilo em
   código-fontes Python. Ela encontra problemas que são tipacamente capturados por um compilador
   para linguagens menos dinâmicas como C e C++. Por cause da natureza dinâmica do Python alguns
