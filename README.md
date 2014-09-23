@@ -19,12 +19,29 @@ This package contain a course management system to support of real classroom's. 
 Modules
 --------
  - Course
- - Class
+   - Name
+   - Description
+   
+ - Classroom
+   - It's associate at a course
+   - Start dt
+   - End date
+
  - Lesson
+   - It's associated at a course
+
  - Students
+   - Classroom
+   - Name
+   - Email
+   
  - Exercises (Quizz with options, Open, etc)
- - Questionnaires 
- 
+   - Lesson
+   - Questions
+
+ - Questionnaires
+   - Ask
+   - Email
 
 Usage (Quick start)
 -------------------
