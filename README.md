@@ -29,6 +29,7 @@ Modules
 
  - Lesson
    - It's associated at a course
+   - Topics
 
  - Students
    - Classroom
